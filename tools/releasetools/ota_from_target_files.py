@@ -823,8 +823,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("Target: {}".format(target_info.fingerprint))
   
   script.Print("**************************************");
-  script.Print("$$$$$$$$  CIPHER OS - CRYPTO $$$$$$$$$");
-  script.Print("$$$$$$$$ Fueled by LineageOS $$$$$$$$$");
+  script.Print("$$$$$$$$  CIPHER OS - ASTRA  $$$$$$$$$");
+  script.Print("$$$$ Get Ready To Unveil Mystery $$$$$$$$$");
   script.Print("            By TeamMinati             ");
   script.Print("**************************************");
   androidver = target_info.GetBuildProp("ro.build.version.release")
