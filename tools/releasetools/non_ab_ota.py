@@ -205,8 +205,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   script.Print("**************************************");
-  script.Print("             CipherOS 4.0             ");
-  script.Print("               CALLISTO               ");
+  script.Print("             CipherOS 5.0             ");
+  script.Print("                ANTARES               ");
   script.Print("**************************************");
   androidver = target_info.GetBuildProp("ro.build.version.release")
   buildidn = target_info.GetBuildProp("ro.build.id")
